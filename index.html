@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarquia Numérica</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hierarquia Numérica</h1>
+        <h2>Considere Campo A < Campo B</h2>
+        <form id="send-form">
+            <label for="campoA" id="lab1">Campo A</label>
+            <input type="number" id="campoA" required placeholder="Valor Campo A" />
+            <label for="campoB" id="lab2">Campo B</label>
+            <input type="number" id="campoB" required placeholder="Valor Campo B" />
+            <button type="submit">Enviar</button>
+            <p class="error-message">O valor B precisa ser maior que o valor A, tente novamente... </p>
+            <p class="success-message">Formulário enviado com sucesso. </p>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
